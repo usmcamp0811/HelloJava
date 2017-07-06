@@ -11,6 +11,10 @@ public class ForLoop {
         for(int counter=7;counter<=21;counter+=3) {
             System.out.println(counter);
         }
-
+        Integer x, y;
+        System.out.println("\nLoop through two different variables");
+        for(x = 0, y = 0; y <= 20; x++, y +=2) {
+            System.out.println(x + ", " + y);
+        }
     }
 }
