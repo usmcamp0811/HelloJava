@@ -14,4 +14,9 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<dependency>
+        <groupId>com.github.lwhite1</groupId>
+        <artifactId>tablesaw</artifactId>
+        <version>0.7.1</version>
+    </dependency>
 </projectDescription>
