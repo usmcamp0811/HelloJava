@@ -1,6 +1,8 @@
 /**
  * Created by mcamp on 7/5/17.
  */
+import java.util.ArrayList;
+
 public class ForLoop {
     public static void main(String[] args) {
         System.out.println("Start at 1m goto 10, count by 1");
@@ -16,5 +18,20 @@ public class ForLoop {
         for(x = 0, y = 0; y <= 20; x++, y +=2) {
             System.out.println(x + ", " + y);
         }
+        System.out.println("\nIteration over an ArrayList of integers");
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        for(Integer i : list){
+            System.out.println(i);
+        }
+        String hello = "Iteration over a String of words.";
+        System.out.println("\n" + hello);
+        for (char c : hello.toCharArray()) {
+            System.out.println(c);
+        }
+
     }
 }
