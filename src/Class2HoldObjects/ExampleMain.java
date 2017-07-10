@@ -14,7 +14,18 @@ public class ExampleMain {
         Fish f = new Fish();
         animallistObject.add(d);
         animallistObject.add(f);
+
+        Animal[] animals = new Animal[2];
+        animals[0] = d;
+        animals[1] = f;
+
+        for(Animal a: animals){
+            a.noise();
+        }
+
     }
+
+
 
 
 
